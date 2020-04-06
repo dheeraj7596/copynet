@@ -52,7 +52,7 @@ class Language(object):
 
 class SequencePairDataset(Dataset):
     def __init__(self,
-                 data_path='./data/',
+                 data_path='/data4/dheeraj/hashtag/all/Twitter/data/',
                  maxlen=200,
                  lang=None,
                  vocab_limit=None,
